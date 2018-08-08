@@ -19,7 +19,8 @@
 
 ## Prerequisite
  - Download pre-trained word vectors to ```wordvec/``` directory.
- - Write the language alphabet to ```{lang}.chars``` file and save it in ```characters/``` directory.
+ - Put ```train.txt```, ```test.txt```, ```dev.txt``` files into ```data/{dataset_name}/``` directory.
+ - Write the language alphabet to ```{dataset_name}.chars``` file and save it in ```characters/``` directory.
 
 ## Usage
 ### Training
