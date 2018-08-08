@@ -1,6 +1,22 @@
 # JointUD
-### Multitask neural model for Part-of-Speech tagging, Morphological parsing and Lemmatization
-### Implemented in Keras 2.1.5
+#### Multitask neural model for Part-of-Speech tagging, Morphological parsing and Lemmatization
+#### Implemented in Keras 2.1.5
+
+## Installation
+### Dependencies
+ - Keras==2.1.5
+ - Theano==0.9.0
+ - tensorflow==1.0.0
+ - nltk==3.2.2
+ - numpy==1.14.2
+ - sklearn
+
+### Keras backend
+ - Use Theano backend
+
+## Prerequisite
+ - Download pre-trained word vectors to the ```wordvec/``` directory.
+ - Write the language alphabet to ```{lang}.chars``` file and save it in the ```characters/``` directory.
 
 ## Usage
 ### Training
