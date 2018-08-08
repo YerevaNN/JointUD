@@ -14,9 +14,12 @@
 ### Keras backend
  - Use Theano backend
 
+### Python version
+ - python3
+
 ## Prerequisite
- - Download pre-trained word vectors to the ```wordvec/``` directory.
- - Write the language alphabet to ```{lang}.chars``` file and save it in the ```characters/``` directory.
+ - Download pre-trained word vectors to ```wordvec/``` directory.
+ - Write the language alphabet to ```{lang}.chars``` file and save it in ```characters/``` directory.
 
 ## Usage
 ### Training
@@ -64,4 +67,33 @@ optional arguments:
                         Input path
   --output_path OUTPUT_PATH
                         Output path
+```
+
+## Example
+ - Input
+```
+I have been going there since I was a little boy and love the friendly and relaxing atmosphere.
+```
+
+ - Output
+```
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	_	_	_	_
+3	been	be	AUX	_	Tense=Past|VerbForm=Part	_	_	_	_
+4	going	go	VERB	_	VerbForm=Ger	_	_	_	_
+5	there	there	ADV	_	PronType=Dem	_	_	_	_
+6	since	since	ADP	_	_	_	_	_	_
+7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+8	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+9	a	a	DET	_	Definite=Ind|PronType=Art	_	_	_	_
+10	little	little	ADJ	_	Degree=Pos	_	_	_	_
+11	boy	boy	NOUN	_	Number=Sing	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	love	love	VERB	_	VerbForm=Fin	_	_	_	_
+14	the	the	DET	_	Definite=Def|PronType=Art	_	_	_	_
+15	friendly	friendly	ADJ	_	Degree=Pos	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	relaxing	relax	VERB	_	VerbForm=Ger	_	_	_	_
+18	atmosphere	atmosphere	NOUN	_	Number=Sing	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
 ```
