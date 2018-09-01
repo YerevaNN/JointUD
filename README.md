@@ -1,6 +1,7 @@
 # JointUD
-#### Multitask neural model for Part-of-Speech tagging, Morphological parsing and Lemmatization
-#### Implemented in Keras 2.1.5
+This is the codebase used in our submission to [CoNLL Shared Task 2018](http://universaldependencies.org/conll18/) (codename `ArmParser`). It is a multitask neural model for part-of-speech tagging, morphological parsing and lemmatization․ The network is implemented in Keras 2.1.5.
+
+Dependency parsing is not yet implemented. 
 
 ## Installation
 ### Dependencies
