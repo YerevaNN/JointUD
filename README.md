@@ -1,7 +1,27 @@
 # JointUD
 This is the codebase used in our submission to [CoNLL Shared Task 2018](http://universaldependencies.org/conll18/) (codename `ArmParser`). It is a multitask neural model for part-of-speech tagging, morphological parsing and lemmatization․ The network is implemented in Keras 2.1.5.
 
+This network is based on a [sequence tagging network](https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf) developed by UKPLab. Our main contribution is an additional character level lemma generator module which is attached to the sequence tagging network.
+
 Dependency parsing is not yet implemented. 
+
+## System Description Paper
+The paper describing our system is published in [Proceedings of the CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies](http://universaldependencies.org/conll18/proceedings/). Here is a [direct link to the PDF file](http://universaldependencies.org/conll18/proceedings/pdf/K18-2018.pdf).
+
+    @InProceedings{arakelyan-hambardzumyan-khachatrian:2018:K18-2,
+      author    = {Arakelyan, Gor  and  Hambardzumyan, Karen  and  Khachatrian, Hrant},
+      title     = {Towards {JointUD}: Part-of-speech Tagging and Lemmatization using Recurrent Neural Networks},
+      booktitle = {Proceedings of the {CoNLL} 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies},
+      month     = {October},
+      year      = {2018},
+      address   = {Brussels, Belgium},
+      publisher = {Association for Computational Linguistics},
+      pages     = {180--186},
+      url       = {http://www.aclweb.org/anthology/K18-2018}
+    }
+
+
+
 
 ## Installation
 ### Dependencies
