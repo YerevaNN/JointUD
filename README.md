@@ -20,8 +20,7 @@ The paper describing our system is published in [Proceedings of the CoNLL 2018 S
       url       = {http://www.aclweb.org/anthology/K18-2018}
     }
 
-
-
+![Architecture](https://i.imgur.com/3tKVRU9.png)
 
 ## Installation
 ### Dependencies
