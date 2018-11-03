@@ -3,6 +3,8 @@ This is the codebase used in our submission to [CoNLL Shared Task 2018](http://u
 
 This network is based on a [sequence tagging network](https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf) developed by UKPLab. Our main contribution is an additional character level lemma generator module which is attached to the sequence tagging network.
 
+![Architecture](https://i.imgur.com/3tKVRU9.png)
+
 Dependency parsing is not yet implemented. 
 
 ## System Description Paper
@@ -19,8 +21,6 @@ The paper describing our system is published in [Proceedings of the CoNLL 2018 S
       pages     = {180--186},
       url       = {http://www.aclweb.org/anthology/K18-2018}
     }
-
-![Architecture](https://i.imgur.com/3tKVRU9.png)
 
 ## Installation
 ### Dependencies
